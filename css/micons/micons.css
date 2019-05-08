@@ -225,9 +225,9 @@
 .icon-fast-forward:before {
     content: "\e942";
 }
-.icon-file:before {
-    content: "\e943";
-}
+.icon-file:before {content: "\e943";
+    color: #4daab2ff;}
+
 .icon-file-add:before {
     content: "\e944";
 }
@@ -273,9 +273,9 @@
 .icon-full-screen:before {
     content: "\e952";
 }
-.icon-gift:before {
-    content: "\e953";
-}
+.icon-gift:before {content: "\e953";
+    color: #4daab2ff;}
+
 .icon-glass:before {
     content: "\e954";
 }
@@ -306,9 +306,9 @@
 .icon-id:before {
     content: "\e95d";
 }
-.icon-image:before {
-    content: "\e95e";
-}
+.icon-image:before {content: "\e95e";
+    color: #4daab2ff;}
+
 .icon-info:before {
     content: "\e95f";
 }
@@ -447,9 +447,9 @@
 .icon-padlock-open:before {
     content: "\e98c";
 }
-.icon-paint-brush:before {
-    content: "\e98d";
-}
+.icon-paint-brush:before {content: "\e98d";
+    color: #4daab2ff;}
+
 .icon-paper-plane:before {
     content: "\e98e";
 }
@@ -573,9 +573,9 @@
 .icon-skull:before {
     content: "\e9b6";
 }
-.icon-sliders:before {
-    content: "\e9b7";
-}
+.icon-sliders:before {content: "\e9b7";
+    color: #4daab2ff;}
+
 .icon-small-screen:before {
     content: "\e9b8";
 }
@@ -704,6 +704,7 @@
 }
 .icon-window:before {
     content: "\e9e2";
+    color: #4daab2ff;
 }
 .icon-wrench:before {
     content: "\e9e3";
@@ -717,4 +718,3 @@
 .icon-zoom-out:before {
     content: "\e9e6";
 }
-
