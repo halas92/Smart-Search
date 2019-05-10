@@ -1872,6 +1872,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .about-how {
   padding-top: 7.2rem;
   padding-bottom: 6rem;
+  background-color: white;
 }
 
 .about-how h1.intro-header {
@@ -1928,6 +1929,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .about-how-content .step h3 {
   margin-bottom: 2.4rem;
 }
+
+#jobsearch {background-color: #ffffff;}
+
+.about-how-content .margin {color: white; background-color: white;}
+.about-how-content .row {color: white; background-color: white;}
 
 .about-how-content .step::before {
   display: block;
