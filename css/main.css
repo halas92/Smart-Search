@@ -68,7 +68,7 @@ body {
 
 body {
   background: #141515;
-  font-family: "muli-regular", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
   line-height: 1.875;
   color: #767676;
@@ -86,6 +86,8 @@ a:visited {
   color: #0087cc;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: bold;
 }
 
 a:hover {color: #FFFFFF;}
@@ -98,7 +100,7 @@ a:focus {color: #FFFFFF;}
  * ------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Lora", serif;
   color: #151515;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -107,14 +109,17 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 
 h3, .h03, h4, .h04 {
   margin-bottom: 1.5rem;
+  font-family: "Lora", serif;
 }
 h5, .h05, h6, .h06 {
   margin-bottom: 1.2rem;
+  font-family: "Lora", serif;
 }
 h1, .h01 {
   font-size: 3.1rem;
   line-height: 1.35;
   letter-spacing: -.1rem;
+  font-family: "Lora", serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -155,7 +160,7 @@ p img {
 }
 
 p.lead {
-  font-family: "muli-light", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 2.1rem;
   line-height: 1.857;
   color: #838383;
@@ -175,10 +180,10 @@ em, i, strong, b {
   font-weight: normal;
 }
 em, i {
-  font-family: "muli-italic", sans-serif;
+  font-family: "Source Sans Pro-italic", sans-serif;
 }
 strong, b {
-  font-family: "muli-bold", sans-serif;
+  font-family: "Source Sans Pro-bold", sans-serif;
 }
 
 small {
@@ -205,7 +210,7 @@ blockquote:before {
 }
 
 blockquote p {
-  font-family: "muli-light", sans-serif;
+  font-family: "Source Sans Pro-light", sans-serif;
   padding: 0;
   font-size: 1.9rem;
   line-height: 1.895;
@@ -229,7 +234,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "muli-bold", sans-serif;
+  font-family: "Source Sans Pro-bold", sans-serif;
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: .05rem;
@@ -237,7 +242,7 @@ abbr {
 }
 
 var, kbd, samp, code, pre {
-  font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+  font-family: Consolas, "Lora", Courier, "Courier New", monospace;
 }
 
 pre {
@@ -1069,7 +1074,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 h1.intro-header {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 3.4rem;
   line-height: 1.324;
   color: #151515;
@@ -1086,6 +1091,7 @@ h1.intro-header::before {
   position: absolute;
   left: 0;
   bottom: 0;
+  margin: 0 auto;
 }
 
 .wide {
@@ -1263,8 +1269,8 @@ h1.intro-header::before {
  * ------------------------------------------------------------------- */
 
 #header-nav-wrap {
-  font-family: "montserrat-medium", sans-serif;
-  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
   position: absolute;
   top: 0;
   right: 40px;
@@ -1312,6 +1318,7 @@ h1.intro-header::before {
   letter-spacing: normal;
   margin: 0;
   background-color: #4daab2ff;
+  display: none;
 }
 
 
@@ -1465,7 +1472,7 @@ h1.intro-header::before {
 }
 
 .home-content-left h1 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 5.2rem;
   letter-spacing: -.05rem;
   line-height: 1.269;
@@ -1863,7 +1870,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-features .feature h3 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.9rem;
   color: #151515;
   margin-bottom: 3rem;
@@ -2302,7 +2309,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #testimonial-slider p {
-  font-family: "muli-regular", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 3.2rem;
   line-height: 1.5;
   color: #303030;
@@ -2479,11 +2486,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 
 /* ===================================================================
- *  14. download - (_layout.scss)
+ *  14. team - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 
-#download {
+#team {
   background: #4daab2ff;
   color: #FFFFFF;
   padding-top: 12rem;
@@ -2491,11 +2498,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   text-align: center;
 }
 
-#download h1 {
+#team h1 {
   color: #ffffff;
 }
 
-#download h1::before {
+#team h1::before {
   background-color: #FFFFFF;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -2503,28 +2510,28 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   transform: translateX(-50%);
 }
 
-#download .lead {
+#team .lead {
   color: #FFFFFF;
   margin-top: 4.8rem;
 }
 
-#download .row {
+#team .row {
   max-width: 800px;
 }
 
-#download .download-badges {
+#team .download-badges {
   list-style: none;
   margin: 0;
   text-align: center;
 }
 
-#download .download-badges li {
+#team .download-badges li {
   display: inline-block;
   margin: 0 7.5px;
   padding-left: 0;
 }
 
-#download .download-badges li a {
+#team .download-badges li a {
   display: block;
   width: 230px;
   height: 71px;
@@ -2536,11 +2543,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-size: 230px 71px;
 }
 
-#download .download-badges li a.badge-appstore {
+#team .download-badges li a.badge-appstore {
   background-image: url("../images/appstore.png");
 }
 
-#download .download-badges li a.badge-googleplay {
+#team .download-badges li a.badge-googleplay {
   background-image: url("../images/google-play.png");
 }
 
