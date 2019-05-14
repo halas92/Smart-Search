@@ -387,6 +387,7 @@ form,
 .fluid-video-wrapper,
 .ss-custom-select {
   margin-bottom: 3rem;
+  font-size: 20px;
 }
 
 
@@ -1158,14 +1159,15 @@ h1.intro-header::before {
 
 .header-logo a {
   display: block;
+  margin-top: 15px;
   margin: 0;
   padding: 0;
   outline: 0;
   border: none;
   width: 97px;
-  height: 22px;
-  background: url("images/logo.png") no-repeat center;
-  background-size: 97px 22px;
+  height: 72px;
+  background: url("images/logo01.png") no-repeat center;
+  background-size: 97px 72px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1884,6 +1886,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .about-how h1.intro-header {
   text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 #about .about-how h1.intro-header::before {
@@ -1935,6 +1938,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .about-how-content .step h3 {
   margin-bottom: 2.4rem;
+  font-size: 24px;
 }
 
 #jobsearch {background-color: #ffffff;}
@@ -2592,7 +2596,7 @@ footer a:focus {
 
 footer h4 {
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-bottom: 2.4rem;
   margin-bottom: 2.4rem;
   position: relative;

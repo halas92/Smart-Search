@@ -83,7 +83,8 @@
 }
 .icon-bin:before {
     content: "\e913";
-}
+    color: #4daab2ff;}
+    
 .icon-block:before {
     content: "\e914";
 }
@@ -536,7 +537,8 @@
 }
 .icon-search:before {
     content: "\e9aa";
-}
+    color: #4daab2ff;}
+
 .icon-selection:before {
     content: "\e9ab";
 }
